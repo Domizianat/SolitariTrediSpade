@@ -5,7 +5,7 @@ public class Mazzo {
 	int mazzo[] = new int [40];
 	
     public void PrendiMazzo() {
-    	int i=0;
+    	int i;
     	int j=0;
     	
 	for (i=0; i<40; i=i+10) {
@@ -89,7 +89,7 @@ public class Mazzo {
 	    	vittorie=vittorie+1;
 	    }
 	prob=(vittorie*100./tentativi);
-	System.out.println("Hai vinto "+vittorie+" volte"+" su "+tentativi+"! La probabilità di vittoria di questo solitario è del "+prob+"%");
+	System.out.println("Hai vinto "+vittorie+" volte"+" su "+tentativi+"! La probabilitÃ  di vittoria di questo solitario Ã¨ del "+prob+"%");
 	return prob;
 	}
 	
