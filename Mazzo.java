@@ -89,7 +89,7 @@ public class Mazzo {
 	    	vittorie=vittorie+1;
 	    }
 	prob=(vittorie*100./tentativi);
-	System.out.println("Hai vinto "+vittorie+" volte"+" su "+tentativi+"! La probabilit√† di vittoria di questo solitario √® del "+prob+"%");
+	System.out.println("Hai vinto "+vittorie+" volte"+" su "+tentativi+"! La probabilit‡ di vittoria di questo solitario Ë del "+prob+"%");
 	return prob;
 	}
 	

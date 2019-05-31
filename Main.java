@@ -1,9 +1,24 @@
 public class Main {
 
-	public static void main(String[] args) {		
-		Mazzo mazzo= new Mazzo();
+	public static void main(String[] args) {
+		
+		Mazzo2 mazzo2= new Mazzo2();
+		Giocatore Cecil =new Giocatore();
+		Cecil.GiocaSolitario2();
+	}
+}
+		
+		
+		
+		
+		
+		/*Mazzo mazzo= new Mazzo();
 		mazzo.PrendiMazzo();
-		mazzo.probabilitaSolitario1(500, mazzo);
+		mazzo.probabilitaSolitario1(1000000, mazzo);
+		
+		Mazzo2 mazzo2 = new Mazzo2();*/
+		//mazzo2.Mischia();
+		//mazzo2.StampaMazzo();
 		
 		//int i;
 		//int vinte=0;
@@ -19,5 +34,4 @@ public class Main {
 		
 	//}System.out.println(vinte);
 //}
-}
-}
+
